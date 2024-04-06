@@ -124,7 +124,7 @@ STATIC_URL = "static/"
 # Directory where static files can be found
 # When DEBUG = True, static files will be directly served from there by
 # the manage.py runserver command
-STATICFILES_DIRS = [BASE_DIR /"polls" /"static"]
+STATICFILES_DIRS = [BASE_DIR / "polls" / "static"]
 
 # Directory to export staticfiles for production
 # All files from all STATICFILES_DIRS will be copied by
